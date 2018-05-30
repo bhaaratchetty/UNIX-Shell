@@ -1,0 +1,34 @@
+#!/bin/bash         
+echo "Implementing user defined system calls"  
+echo 
+echo "***************************************" 
+echo   
+echo "Current working directory"
+pwd
+echo 
+echo "***************************************" 
+echo   
+echo "Number of text files in current directory"
+ls -l|locate "*.txt"| wc -l
+echo 
+echo "***************************************" 
+echo
+echo   
+echo "Number of c files in current directory"
+ls -l|locate "*.c"| wc -l
+echo 
+echo "***************************************" 
+echo
+echo   
+echo "Number of bash files in current directory"
+ls -l|locate "*.sh"| wc -l
+echo 
+echo "***************************************" 
+echo
+echo   
+echo "Number of java files in current directory"
+ls -l|locate "*.java"| wc -l
+echo 
+echo "***************************************" 
+echo
+

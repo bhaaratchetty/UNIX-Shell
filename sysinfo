@@ -1,0 +1,26 @@
+#!/bin/bash         
+echo "Implementing user defined system calls"  
+echo 
+echo "***************************************" 
+echo   
+   
+echo "Average load on CPU"
+cat /proc/loadavg
+echo 
+echo "***************************************" 
+echo
+echo "Hostname information"
+hostname
+echo 
+echo "***************************************" 
+echo
+echo "Disk Space information"
+df -Th 
+echo 
+echo "***************************************" 
+echo
+echo "Free Space information"
+free -h
+echo 
+echo "***************************************" 
+echo

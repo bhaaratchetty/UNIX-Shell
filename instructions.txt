@@ -1,0 +1,20 @@
+--> change permissions of sysinfo to 777
+
+chmod 777 sysinfo
+
+--> move sysinfo to /usr/bin
+
+mv sysinfo /usr/bin
+
+--> or sometimes move doesnt work try copying. 
+
+cp sysinfo /usr/bin
+
+--> in case needed run as sudo superuser. 
+
+--> then just say sysinfo on terminal
+
+sysinfo
+
+
+
